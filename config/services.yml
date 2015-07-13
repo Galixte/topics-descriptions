@@ -1,0 +1,11 @@
+services:
+    vinny.topicsdescriptions.listener:
+        class: vinny\topicsdescriptions\event\listener
+        arguments:
+            - @dbal.conn
+            - @auth
+            - @request
+            - @template
+            - @user
+        tags:
+            - { name: event.listener }

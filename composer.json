@@ -1,0 +1,38 @@
+{
+	"name": "vinny/topicsdescriptions",
+	"type": "phpbb-extension",
+	"description": "Add the possibility of describe topics, in posting page. Based on permissions per forum. Descriptions are display in viewtopic, viewforum, search results (only display results as topic) and MCP forum.",
+	"homepage": "https://github.com/vinny",
+	"version": "1.0.0",
+	"time": "2015-06-03",
+	"keywords": ["phpbb", "extension", "topic", "descriptions"],
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "_Vinny_",
+			"homepage": "http://www.suportephpbb.com.br",
+			"email": "vinny@suportephpbb.com.br",
+			"role": "Extension Developer"
+		},
+		{
+			"name": "00mohgta7",
+			"homepage": "https://www.phpbb.com/community/memberlist.php?mode=viewprofile&un=00mohgta7",
+			"email": "moh.phpbb@gmail.com",
+			"role": "Main Author/Past Contributor"
+		}
+	],
+	"require": {
+		"php": ">=5.3.3"
+	},
+	"extra": {
+		"display-name": "Topics Descriptions",
+		"soft-require": {
+			"phpbb/phpbb": "3.1.*"
+		},
+		"version-check": {
+			"host": "www.phpbb.com",
+			"directory": "/customise/db/extension/",
+			"filename": "version_check"
+		}
+	}
+}
